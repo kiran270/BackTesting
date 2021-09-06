@@ -1,7 +1,9 @@
 from NSEUtils import NSEUtils
+import json
 class IronCondor(NSEUtils):
 	def __init__(self):
 		self.description ="This is IronCondor"
+
 
 	def backTest(self,stock,startdate,expiraydate):
 		sdsp=self.getStockPrice(stock,startdate)
@@ -17,6 +19,7 @@ class IronCondor(NSEUtils):
 		exitdefcalloptionprice=self.getOptionPrice(stock,expiraydate,"CE",strikeprice+totalpreimium,expiraydate)
 		exitdefputoptionprice=self.getOptionPrice(stock,expiraydate,"PE",strikeprice-totalpreimium,expiraydate)
 		print("**********************")
+		print("StartDate:",startdate,expiraydate)
 		print("StartDateStockPrice:",sdsp)
 		print("EndDateStockPrice:",edsp)
 		print("StrikePrice:",strikeprice)
@@ -33,6 +36,16 @@ class IronCondor(NSEUtils):
 		print("ExpectedTotalPremium:",ExpectedTotalPremium)
 		print("ActualTotalPremium:",ActualTotalPremium)
 		print("TotalPAndL:",ExpectedTotalPremium-ActualTotalPremium)
-	
-I=IronCondor()
-I.backTest("NIFTY","2021-02-25","2021-03-25")
+
+
+if __name__== "__main__" :
+	I=IronCondor()
+	with open('expiry.json') as f:
+		data = json.load(f)
+	Monthdates=data['Monthly']
+	for i in range(0,len(Monthdates)-1):
+		I.backTest("MARUTI",Monthdates[i],Monthdates[i+1])
+	# I.backTest("MARUTI","2021-06-24","2021-07-29")
+	# f.close()
+
+
