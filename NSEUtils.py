@@ -3,6 +3,7 @@ from datetime import date
 import math
 from nsepy.derivatives import get_expiry_date
 import re
+import datetime
 roundUpValues = {'NIFTY':50,'BANKNIFTY':100,'MARUTI':100,'SBIN':5}
 class NSEUtils:
 	
@@ -26,11 +27,18 @@ class NSEUtils:
                         option_type=optiontype,
                         strike_price=strikeprice,
                         expiry_date=self.convertDate(expireydate))
-		return data.iloc[0]['Close']
+		try:
+			gotdata = data.iloc[0]['Close']
+		except IndexError:
+			gotdata = 'null'
+		return gotdata
 
 	def convertDate(self,sdate):
 		s=re.split("-",sdate)
 		return date(int(s[0]),int(s[1]),int(s[2]))
+	def getNextDay(self,sdate):
+		nextday = sdate + datetime.timedelta(days=1)
+		return nextday
 
 	def roundup(self,stock,stockprice):
 		return int(math.ceil(stockprice / roundUpValues[stock])) * roundUpValues[stock]
