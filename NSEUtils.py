@@ -4,7 +4,7 @@ import math
 from nsepy.derivatives import get_expiry_date
 import re
 import datetime
-roundUpValues = {'NIFTY':50,'BANKNIFTY':100,'MARUTI':100,'SBIN':5}
+roundUpValues = {'NIFTY':50,'BANKNIFTY':100,'MARUTI':100,'SBIN':5,'TCS':5}
 class NSEUtils:
 	
 	def __init__(self):

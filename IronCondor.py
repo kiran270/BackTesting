@@ -5,7 +5,7 @@ class IronCondor(NSEUtils):
 		self.description ="This is IronCondor"
 
 
-	def backTest(self,stock,startdate,expiraydate):
+	def backTestATM(self,stock,startdate,expiraydate):
 		result={}
 		sdsp=self.getStockPrice(stock,startdate)
 		edsp=self.getStockPrice(stock,expiraydate)
@@ -38,6 +38,7 @@ class IronCondor(NSEUtils):
 		result["PAndL"]=ExpectedTotalPremium-ActualTotalPremium
 		result = json.dumps(result, indent = 4)
 		return result
+	
 	def dailyTest(self,currentdate,result):
 		data={}
 		exitcalloptionprice=self.getOptionPrice(result["stock"],currentdate,"CE",result["calloption"],result["expiry"])
@@ -60,18 +61,26 @@ if __name__== "__main__" :
 		data = json.load(f)
 	Monthdates=data['Monthly']
 	for i in range(0,len(Monthdates)-1):
-		result=I.backTest("MARUTI",Monthdates[i],Monthdates[i+1])
+		result=I.backTestATM("NIFTY",Monthdates[i],Monthdates[i+1])
 		result = json.loads(result)
-		currentdate=I.convertDate(Monthdates[i])
-		expirayday=I.convertDate(Monthdates[i+1])
-		nextday=I.getNextDay(currentdate)
-		data = json.dumps(result, indent = 4)
-		print(data)
-		while nextday != expirayday:
-			x=I.dailyTest(str(nextday),result)
-			nextday=I.getNextDay(nextday)
-			if x != False:
-				print(x)
+		result = json.dumps(result, indent = 4)
+		print(result)
+	# weekdates=data['Weekly']
+	# for i in range(0,len(weekdates)-1):
+	# 	result=I.backTestATM("BANKNIFTY",weekdates[i],weekdates[i+1])
+	# 	result = json.loads(result)
+	# 	result = json.dumps(result, indent = 4)
+	# 	print(result)
+		# currentdate=I.convertDate(Monthdates[i])
+		# expirayday=I.convertDate(Monthdates[i+1])
+		# nextday=I.getNextDay(currentdate)
+		# while nextday != expirayday:
+		# 	x=I.dailyTest(str(nextday),result)
+		# 	nextday=I.getNextDay(nextday)
+		# 	if x != False:
+		# 		print(x)
+		# break;
+
 		# result = json.dumps(result, indent = 4)
 		# print(result,x)
 		# break;

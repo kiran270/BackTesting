@@ -1,0 +1,445 @@
+{
+    "stock": "MARUTI",
+    "expiry": "2021-01-28",
+    "startdate": "2020-12-31",
+    "sdsp": 7649.6,
+    "edsp": 7588.5,
+    "strikeprice": 7700,
+    "calloption": 7700,
+    "putoption": 7700,
+    "defcalloption": 8300,
+    "defputoption": 7100,
+    "calloptionprice": 280.25,
+    "putoptionprice": 299.5,
+    "defcalloptionprice": 92.9,
+    "defputoptionprice": 80.9,
+    "PAndL": 301.30000000000007
+}
+{
+    "currentdate": "2021-01-01",
+    "PAndL": 13.650000000000091
+}
+{
+    "currentdate": "2021-01-04",
+    "PAndL": 26.800000000000125
+}
+{
+    "currentdate": "2021-01-05",
+    "PAndL": 24.700000000000102
+}
+{
+    "currentdate": "2021-01-06",
+    "PAndL": 22.800000000000068
+}
+{
+    "currentdate": "2021-01-07",
+    "PAndL": 17.650000000000034
+}
+{
+    "currentdate": "2021-01-08",
+    "PAndL": 8.700000000000045
+}
+{
+    "currentdate": "2021-01-11",
+    "PAndL": -30.249999999999943
+}
+{
+    "currentdate": "2021-01-12",
+    "PAndL": -8.350000000000023
+}
+{
+    "currentdate": "2021-01-13",
+    "PAndL": -15.0
+}
+{
+    "currentdate": "2021-01-14",
+    "PAndL": -1.4499999999999318
+}
+{
+    "currentdate": "2021-01-15",
+    "PAndL": 21.500000000000057
+}
+{
+    "currentdate": "2021-01-18",
+    "PAndL": 85.10000000000002
+}
+{
+    "currentdate": "2021-01-19",
+    "PAndL": 74.70000000000005
+}
+{
+    "currentdate": "2021-01-20",
+    "PAndL": 7.850000000000023
+}
+{
+    "currentdate": "2021-01-21",
+    "PAndL": 21.250000000000057
+}
+{
+    "currentdate": "2021-01-22",
+    "PAndL": 64.30000000000001
+}
+{
+    "currentdate": "2021-01-25",
+    "PAndL": 105.35000000000002
+}
+{
+    "currentdate": "2021-01-27",
+    "PAndL": 194.05000000000004
+}
+{
+    "stock": "MARUTI",
+    "expiry": "2021-02-25",
+    "startdate": "2021-01-28",
+    "sdsp": 7588.5,
+    "edsp": 6930.35,
+    "strikeprice": 7600,
+    "calloption": 7600,
+    "putoption": 7600,
+    "defcalloption": 8300,
+    "defputoption": 6900,
+    "calloptionprice": 365.45,
+    "putoptionprice": 334.25,
+    "defcalloptionprice": 126.2,
+    "defputoptionprice": 90.65,
+    "PAndL": -185.94999999999982
+}
+{
+    "currentdate": "2021-01-29",
+    "PAndL": -18.050000000000068
+}
+{
+    "currentdate": "2021-02-01",
+    "PAndL": 50.950000000000045
+}
+{
+    "currentdate": "2021-02-02",
+    "PAndL": 57.099999999999966
+}
+{
+    "currentdate": "2021-02-03",
+    "PAndL": 54.85000000000008
+}
+{
+    "currentdate": "2021-02-04",
+    "PAndL": 70.14999999999998
+}
+{
+    "currentdate": "2021-02-05",
+    "PAndL": 61.94999999999999
+}
+{
+    "currentdate": "2021-02-08",
+    "PAndL": 81.00000000000006
+}
+{
+    "currentdate": "2021-02-09",
+    "PAndL": 91.45000000000005
+}
+{
+    "currentdate": "2021-02-10",
+    "PAndL": 96.80000000000007
+}
+{
+    "currentdate": "2021-02-11",
+    "PAndL": 120.15000000000009
+}
+{
+    "currentdate": "2021-02-12",
+    "PAndL": 127.90000000000003
+}
+{
+    "currentdate": "2021-02-15",
+    "PAndL": 145.90000000000003
+}
+{
+    "currentdate": "2021-02-16",
+    "PAndL": 170.65000000000003
+}
+{
+    "currentdate": "2021-02-17",
+    "PAndL": 177.20000000000005
+}
+{
+    "currentdate": "2021-02-18",
+    "PAndL": 196.95000000000005
+}
+{
+    "currentdate": "2021-02-19",
+    "PAndL": 143.85000000000002
+}
+{
+    "currentdate": "2021-02-22",
+    "PAndL": -19.600000000000023
+}
+{
+    "currentdate": "2021-02-23",
+    "PAndL": -91.64999999999998
+}
+{
+    "currentdate": "2021-02-24",
+    "PAndL": -110.5
+}
+{
+    "stock": "MARUTI",
+    "expiry": "2021-03-25",
+    "startdate": "2021-02-25",
+    "sdsp": 6930.35,
+    "edsp": 6786.85,
+    "strikeprice": 7000,
+    "calloption": 7000,
+    "putoption": 7000,
+    "defcalloption": 7700,
+    "defputoption": 6300,
+    "calloptionprice": 314.6,
+    "putoptionprice": 324.75,
+    "defcalloptionprice": 99.7,
+    "defputoptionprice": 83.5,
+    "PAndL": 248.29999999999998
+}
+{
+    "currentdate": "2021-02-26",
+    "PAndL": -24.0
+}
+{
+    "currentdate": "2021-03-01",
+    "PAndL": 13.600000000000023
+}
+{
+    "currentdate": "2021-03-02",
+    "PAndL": 33.69999999999993
+}
+{
+    "currentdate": "2021-03-03",
+    "PAndL": 52.099999999999966
+}
+{
+    "currentdate": "2021-03-04",
+    "PAndL": 51.849999999999966
+}
+{
+    "currentdate": "2021-03-05",
+    "PAndL": 43.950000000000045
+}
+{
+    "currentdate": "2021-03-08",
+    "PAndL": 55.35000000000002
+}
+{
+    "currentdate": "2021-03-09",
+    "PAndL": 56.89999999999998
+}
+{
+    "currentdate": "2021-03-10",
+    "PAndL": 70.74999999999994
+}
+{
+    "currentdate": "2021-03-12",
+    "PAndL": 127.69999999999999
+}
+{
+    "currentdate": "2021-03-15",
+    "PAndL": 168.39999999999998
+}
+{
+    "currentdate": "2021-03-16",
+    "PAndL": 174.7
+}
+{
+    "currentdate": "2021-03-17",
+    "PAndL": 225.09999999999997
+}
+{
+    "currentdate": "2021-03-18",
+    "PAndL": 203.65
+}
+{
+    "currentdate": "2021-03-19",
+    "PAndL": 234.44999999999996
+}
+{
+    "currentdate": "2021-03-22",
+    "PAndL": 274.79999999999995
+}
+{
+    "currentdate": "2021-03-23",
+    "PAndL": 245.29999999999998
+}
+{
+    "currentdate": "2021-03-24",
+    "PAndL": 364.45
+}
+{
+    "stock": "MARUTI",
+    "expiry": "2021-04-29",
+    "startdate": "2021-03-25",
+    "sdsp": 6786.85,
+    "edsp": 6565.65,
+    "strikeprice": 6800,
+    "calloption": 6800,
+    "putoption": 6800,
+    "defcalloption": 7400,
+    "defputoption": 6200,
+    "calloptionprice": 283.95,
+    "putoptionprice": 238.15,
+    "defcalloptionprice": 87.05,
+    "defputoptionprice": 56.9,
+    "PAndL": 146.95000000000005
+}
+{
+    "currentdate": "2021-03-26",
+    "PAndL": 12.050000000000068
+}
+{
+    "currentdate": "2021-03-30",
+    "PAndL": 13.149999999999977
+}
+{
+    "currentdate": "2021-03-31",
+    "PAndL": 10.75
+}
+{
+    "currentdate": "2021-04-01",
+    "PAndL": 35.099999999999966
+}
+{
+    "currentdate": "2021-04-05",
+    "PAndL": 28.94999999999999
+}
+{
+    "currentdate": "2021-04-06",
+    "PAndL": 30.5
+}
+{
+    "currentdate": "2021-04-07",
+    "PAndL": 47.15000000000009
+}
+{
+    "currentdate": "2021-04-08",
+    "PAndL": 56.05000000000007
+}
+{
+    "currentdate": "2021-04-09",
+    "PAndL": 65.65000000000003
+}
+{
+    "currentdate": "2021-04-12",
+    "PAndL": 33.90000000000009
+}
+{
+    "currentdate": "2021-04-13",
+    "PAndL": 82.40000000000003
+}
+{
+    "currentdate": "2021-04-15",
+    "PAndL": 85.25000000000006
+}
+{
+    "currentdate": "2021-04-16",
+    "PAndL": 91.90000000000003
+}
+{
+    "currentdate": "2021-04-19",
+    "PAndL": 51.60000000000002
+}
+{
+    "currentdate": "2021-04-20",
+    "PAndL": 120.30000000000007
+}
+{
+    "currentdate": "2021-04-22",
+    "PAndL": 122.05000000000001
+}
+{
+    "currentdate": "2021-04-23",
+    "PAndL": 141.25000000000006
+}
+{
+    "currentdate": "2021-04-26",
+    "PAndL": 126.70000000000007
+}
+{
+    "currentdate": "2021-04-27",
+    "PAndL": 134.20000000000002
+}
+{
+    "currentdate": "2021-04-28",
+    "PAndL": 137.20000000000005
+}
+{
+    "stock": "MARUTI",
+    "expiry": "2021-05-27",
+    "startdate": "2021-04-29",
+    "sdsp": 6565.65,
+    "edsp": 6968.9,
+    "strikeprice": 6600,
+    "calloption": 6600,
+    "putoption": 6600,
+    "defcalloption": 7100,
+    "defputoption": 6100,
+    "calloptionprice": 230.15,
+    "putoptionprice": 223.95,
+    "defcalloptionprice": 72.2,
+    "defputoptionprice": 59.5,
+    "PAndL": -79.79999999999995
+}
+{
+    "currentdate": "2021-04-30",
+    "PAndL": -7.150000000000034
+}
+{
+    "currentdate": "2021-05-03",
+    "PAndL": 8.100000000000023
+}
+{
+    "currentdate": "2021-05-04",
+    "PAndL": 11.450000000000045
+}
+{
+    "currentdate": "2021-05-05",
+    "PAndL": 17.65000000000009
+}
+{
+    "currentdate": "2021-05-06",
+    "PAndL": 18.19999999999999
+}
+{
+    "currentdate": "2021-05-07",
+    "PAndL": 27.85000000000008
+}
+{
+    "currentdate": "2021-05-10",
+    "PAndL": 24.5
+}
+{
+    "currentdate": "2021-05-11",
+    "PAndL": 36.05000000000007
+}
+{
+    "currentdate": "2021-05-12",
+    "PAndL": 24.800000000000068
+}
+{
+    "currentdate": "2021-05-14",
+    "PAndL": 60.700000000000045
+}
+{
+    "currentdate": "2021-05-17",
+    "PAndL": 70.25000000000006
+}
+{
+    "currentdate": "2021-05-18",
+    "PAndL": 48.85000000000002
+}
+{
+    "currentdate": "2021-05-19",
+    "PAndL": 73.05000000000001
+}
+{
+    "currentdate": "2021-05-20",
+    "PAndL": 102.05000000000004
+}
+{
+    "currentdate": "2021-05-21",
+    "PAndL": 86.80000000000004
+}

@@ -36,7 +36,7 @@ if __name__== "__main__" :
 	Monthdates=data['Monthly']
 	pAndl=0
 	for i in range(0,len(Monthdates)-1):
-		x=S.backTest("MARUTI",Monthdates[i],Monthdates[i+1])
+		x=S.backTest("NIFTY",Monthdates[i],Monthdates[i+1])
 		pAndl=pAndl+x
 	print(pAndl)
 	# I.backTest("MARUTI","2021-06-24","2021-07-29")
